@@ -1,0 +1,149 @@
+html
+{
+    background: url(bw.png);
+}
+
+body
+{
+    background: white;
+    width: 70%;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+
+header div ul
+{
+    text-align: right;
+    list-style-type: none;
+}
+
+header div li
+{
+    font-size: 13px;
+    display: inline;
+    padding-left: 30px;
+    font-family: monospace;
+}
+header div a
+{
+    text-decoration: none;
+    color: black;
+}
+
+header img
+{
+    width: 200px;
+    position: absolute;
+    right: 400px;
+    top: 15px;
+}
+
+h1
+{
+    text-align: center;
+    font-family: fantasy;
+}
+
+h2
+{
+    text-align: center;
+    font-family: monospace
+}
+main
+{
+    display: flex;
+}
+
+aside
+{
+    flex: 1;
+}
+
+aside nav ul
+{
+    list-style-type: none;
+}
+
+aside nav li
+{
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+aside nav a
+{
+    text-decoration: none;
+    color: black;
+}
+
+aside nav a:hover
+{
+    color: red;
+}
+
+article
+{
+    flex: 4;
+}
+
+.social
+{
+    text-align: center;
+}
+.social ul
+{
+    list-style-type: none;
+}
+.social li
+{
+    display: inline;
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+.social a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.social a:hover
+{
+    color: red;
+}
+
+#copyright
+{
+    font-size: 13px;
+    font-family: monospace;
+}
+form
+{
+    text-align: center;
+}
+.extra
+{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.extra:hover
+{
+    color:text-decoration: 
+}
+.all
+{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.all a
+{
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+.all a:hover
+{
+    color:red;
+}
